@@ -1,0 +1,29 @@
+{
+  "name": "suma_design_system",
+  "version": "1.0.0",
+  "description": "Sistema de Diseño SumaDev",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "debug": "^4.3.4",
+    "express": "^4.18.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-run": "^1.7.1",
+    "gulp-sass": "^5.1.0",
+    "http-errors": "^1.6.2",
+    "morgan": "^1.10.0",
+    "pug": "^3.0.2",
+    "sass": "^1.71.1",
+    "watch": "^1.0.2"
+  }
+}
